@@ -42,8 +42,8 @@ Namespace Grid_MasterDetail_GetRelationName
 			Me.colEAN13 = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.gridControl1 = New DevExpress.XtraGrid.GridControl()
 			Me.suppliersBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.nwindDataSet = New Grid_MasterDetail_GetRelationName.nwindDataSet()
-			Me.gridView3 = New DevExpress.XtraGrid.Views.Grid.GridView()
+            Me.nwindDataSet = New nwindDataSet()
+            Me.gridView3 = New DevExpress.XtraGrid.Views.Grid.GridView()
 			Me.colProductID1 = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colSupplierID2 = New DevExpress.XtraGrid.Columns.GridColumn()
 			Me.colProductName1 = New DevExpress.XtraGrid.Columns.GridColumn()
@@ -65,10 +65,10 @@ Namespace Grid_MasterDetail_GetRelationName
 			Me.colAddress = New DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn()
 			Me.colCity = New DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn()
 			Me.colRegion = New DevExpress.XtraGrid.Views.BandedGrid.BandedGridColumn()
-			Me.suppliersTableAdapter = New Grid_MasterDetail_GetRelationName.nwindDataSetTableAdapters.SuppliersTableAdapter()
-			Me.categoryProductsTableAdapter1 = New Grid_MasterDetail_GetRelationName.nwindDataSetTableAdapters.CategoryProductsTableAdapter()
-			Me.productsTableAdapter1 = New Grid_MasterDetail_GetRelationName.nwindDataSetTableAdapters.ProductsTableAdapter()
-			CType(Me.gridView2, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.suppliersTableAdapter = New nwindDataSetTableAdapters.SuppliersTableAdapter()
+            Me.categoryProductsTableAdapter1 = New nwindDataSetTableAdapters.CategoryProductsTableAdapter()
+            Me.productsTableAdapter1 = New nwindDataSetTableAdapters.ProductsTableAdapter()
+            CType(Me.gridView2, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.gridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.suppliersBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -385,10 +385,10 @@ Namespace Grid_MasterDetail_GetRelationName
 		Private gridControl1 As DevExpress.XtraGrid.GridControl
 		Private nwindDataSet As nwindDataSet
 		Private suppliersBindingSource As System.Windows.Forms.BindingSource
-		Private suppliersTableAdapter As Grid_MasterDetail_GetRelationName.nwindDataSetTableAdapters.SuppliersTableAdapter
-		Private categoryProductsTableAdapter1 As Grid_MasterDetail_GetRelationName.nwindDataSetTableAdapters.CategoryProductsTableAdapter
-		Private productsTableAdapter1 As Grid_MasterDetail_GetRelationName.nwindDataSetTableAdapters.ProductsTableAdapter
-		Private gridView2 As DevExpress.XtraGrid.Views.Grid.GridView
+        Private suppliersTableAdapter As nwindDataSetTableAdapters.SuppliersTableAdapter
+        Private categoryProductsTableAdapter1 As nwindDataSetTableAdapters.CategoryProductsTableAdapter
+        Private productsTableAdapter1 As nwindDataSetTableAdapters.ProductsTableAdapter
+        Private gridView2 As DevExpress.XtraGrid.Views.Grid.GridView
 		Private gridView3 As DevExpress.XtraGrid.Views.Grid.GridView
 		Private colProductID As DevExpress.XtraGrid.Columns.GridColumn
 		Private colProductName As DevExpress.XtraGrid.Columns.GridColumn
